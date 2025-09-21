@@ -23,6 +23,35 @@ Develop a simple food-ordering mobile app interface using React Native that fetc
    - Real-time data fetching for up-to-date menu and prices.
    - Loading states and error handling for data fetching.
 ---
+## Setting up Firebase
+
+To connect this app to Firebase and manage menu items, follow these steps:
+
+1. **Create a Firebase account**  
+   Visit [Firebase Console](https://console.firebase.google.com/) and sign up or log in.
+
+2. **Create a new project**  
+   Click "Add project" and follow the prompts to set up your project.
+
+3. **Set up Firestore Database**  
+   - Go to "Build" > "Firestore Database".
+   - Click "Create database" and choose test mode for development.
+
+4. **Create a collection named `menu`**  
+   - In Firestore, click "Start collection".
+   - Name it `menu`.
+
+5. **Add menu items**  
+   Each document in the `menu` collection should have these fields:
+   - `name` (string): Name of the food item
+   - `description` (string): Short description
+   - `price` (number): Price of the item
+   - `image` (string): URL to the item's image
+
+   > For the `image` field, use a direct URL to the product image.
+
+**Note:**  
+Uploading images to Firebase Storage requires a premium subscription, so this app uses image URLs instead.
 
 # Installation:
 Clone the repo:
