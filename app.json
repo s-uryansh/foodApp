@@ -43,6 +43,16 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "firebaseConfig": {
+        "apiKey": "AIzaSyAAGbep-ESmnSHyeN_Ig-F0n3dNO5KlEsI",
+        "authDomain": "food-a090c.firebaseapp.com",
+        "projectId": "food-a090c",
+        "storageBucket": "food-a090c.appspot.com",
+        "messagingSenderId": "693077340476",
+        "appId": "1:693077340476:web:ea08cd88651cc4950aee39"
+      }
     }
   }
 }

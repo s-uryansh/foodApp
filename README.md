@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Food App
+As part of my application for the Olcademy Mobile App Developer Internship, I made this application user interface to showcase my mobile app design abilities.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
+Task:
+```
+Create a Mini Food Ordering Mobile App UI with Firebase
+```
+Develop a simple food-ordering mobile app interface using React Native that fetches menu items from Firebase and allows users to place orders.
 
-## Get started
+## Key features
 
-1. Install dependencies
+#### UI
+   - User-friendly food listing with images, descriptions, and prices.
+   - Item selection with quantity specification.
+   - Add items to virtual shopping cart.
+   - Review and adjust cart items.
+   - View total price.
+   - Order summary and submission.
+#### Firebase
+   - Firebase setup for project.
+   - Manage menu items and orders using Firestore.
+   - Real-time data fetching for up-to-date menu and prices.
+   - Loading states and error handling for data fetching.
+---
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+# Installation:
+Clone the repo:
 ```bash
-npm run reset-project
+git clone https://github.com/s-uryansh/foodApp.git
+cd foodApp
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+# Run
+Use:
+```bash
+npm run android
+```
+It will automatically open a virtual android if sdk-bin path is setup.
 
-To learn more about developing your project with Expo, look at the following resources:
+## To use application on phone 
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#### Follow above steps to start the application once it started successfully
+Install `Expo Go` from play store and scan the QR code on terminal.
